@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>神农氏族-撸皮肤器 v1.0.0 By:Lucas</title>
+    <link rel="stylesheet" href="style/spectrum.css">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <div>
+        <div class="wrap">
+            <span>
+            <a href="#" class="btn add_rect">添加矩形</a>
+            <a href="#" class="btn add_cirlce">添加圆</a>
+            <a href="#" class="btn add_triangle">添加三角形</a>
+            <a href="#" class="btn free_draw">自己画</a>
+        </span>
+            <span>
+                <b> 填充色 </b>
+                <!-- <a href="#" class="color"></a> -->
+                <input type='text' class="custom" />
+            </span>
+            <span>
+                <b> 边框色</b>
+                <!-- <a href="#" class="color"></a> -->
+                <input type='text' class="custom_border" />
+            </span>
+            <span>
+                <b> 边框</b>
+                <input class="border" type='text' value="1" /> 
+                <!-- <a href="#" class="set_border">撸上去</a> -->
+            </span>
+            <span>
+                <b> 画笔宽度</b>
+                <input class="brush_width" type='text' value="10" /> 
+                <!-- <a href="#" class="set_border">撸上去</a> -->
+            </span>
+            <a href="#" class="clear">清除画布</a>
+        </div>
+        <canvas id="canvas" width="800" height="600"></canvas>
+    </div>
+    <script>
+        if (typeof module === 'object') {
+            window.module = module;
+            module = undefined;
+        }
+    </script>
+    <script src="node_modules\jquery\dist\jquery.min.js"></script>
+    <script src="script/spectrum.js"></script>
+    <script src="script/fabric.min.js"></script>
+    <script src="script/creator.js"></script>
+    <script>
+        if (window.module) module = window.module;
+    </script>
+</body>
+
+</html>

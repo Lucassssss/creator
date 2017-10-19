@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica Neue For Number, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+
+.wrap {
+    line-height: 40px;
+    height: 40px;
+    background: #efefef;
+    box-shadow: 0 2px 4px -1px rgba(0, 0, 0, .2), 0 4px 5px 0 rgba(0, 0, 0, .14), 0 1px 10px 0 rgba(0, 0, 0, .12);
+}
+
+.btn {
+    display: block;
+    float: left;
+    background: #1890ff;
+    border-color: #1890ff;
+    border-radius: 3px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    height: 24px;
+    line-height: 24px;
+    padding: 1px 10px;
+    font-size: 14px;
+    border: 1px solid #2688e2;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.wrap .btn {
+    margin-top: 6px;
+    margin-left: 20px;
+}
+
+.wrap span {
+    margin-left: 20px;
+}
+
+.wrap span b {
+    color: #666;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.wrap span a.color {
+    height: 24px;
+    width: 24px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.sp-replacer {
+    margin: 0;
+    overflow: hidden;
+    cursor: pointer;
+    padding: 1px 4px;
+    display: inline-block;
+    border: solid 1px #d4d4d4;
+    background: #eee;
+    color: #333;
+    vertical-align: middle;
+    border-radius: 3px;
+}
+
+.border,
+.brush_width {
+    width: 40px;
+    height: 24px;
+    text-align: center;
+    line-height: 24px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+.clear {
+    background: #ed2600;
+    color: #fff;
+    height: 24px;
+    line-height: 24px;
+    padding: 1px 10px;
+    font-size: 14px;
+    text-decoration: none;
+    display: block;
+    float: right;
+    margin-right: 30px;
+    margin-top: 6px;
+    border-radius: 3px;
+}
+
+.set_border {
+    background: #565656;
+    color: #fff;
+    height: 26px;
+    line-height: 26px;
+    padding: 3px 10px;
+    font-size: 14px;
+    text-decoration: none;
+    margin-right: 30px;
+    margin-top: 6px;
+    border-radius: 3px;
+}
+
+.btn.active {
+    background: #0d4880;
+}
